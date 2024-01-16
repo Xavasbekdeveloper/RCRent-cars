@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAVBAR */
+.nav {
+    padding-top: 27px;
+    padding-bottom: 14px;
+    background-color: #0A0A09;
+}
+
+.nav__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #FFF;
+}
+
+.phone__link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    transition: all 0.5s ease-in-out;
+}
+
+.phone__link:hover {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* HERO */
+
+.hero {
+    padding-top: 126px;
+    padding-bottom: 174px;
+    background-color: #0A0A09;
+    background-image: url(../images/map.png), url(../images/bmw.png), url(../images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: center top, right, right;
+
+}
+
+.hero__title {
+    color: #FFF;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.15px;
+    margin-bottom: 48px;
+}
+
+.hero__title span {
+    color: #D4CC7B;
+}
+
+.hero__text {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    margin-bottom: 48px;
+}
+
+.hero__btn {
+    padding: 22px 54px;
+    border: 1px solid #DBB500;
+    border-radius: 30px;
+    background: linear-gradient(280deg, #FFF -23.59%, #DBB500 115.07%);
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 253px;
+}
+
+.hero__btn:hover {
+    background-color: transparent;
+    color: #DBB500;
+    box-shadow: 0px 0px 20px 0px #D6A500;
+}
+
+.sircle__img {
+    text-align: center;
+}
+
+/* AUTOPARK */
+
+.autopark {
+    padding-bottom: 49px;
+    background-color: #0A0A09;
+    background-image: url(../images/Ellipse\ 1\ \(1\).png), url(../images/bmw\ 422.png), url(../images/mercedes1\ 1.png), url(../images/kia\ 1.png), url(../images/vw.png);
+    background-repeat: no-repeat;
+    background-position: center, left top 300px, right top 900px,left top 1670px, right 350px  top 2100px;
+}
+
+.autopark__title {
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    margin-bottom: 75px;
+}
+
+.autopark__title span {
+    color: #D4CC7B;
+}
+
+.cars__cards {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    border-radius: 12px;
+    padding: 18px 27px;
+    background-color: #0B0D0F;
+    filter: drop-shadow(0px 4px 10px rgba(124, 124, 124, 0.20));
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 12px;
+}
+
+.top p {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.top p span {
+    color: #ECD774;
+}
+
+.center__img {
+    margin-bottom: 24px;
+}
+
+.about__car__imgs {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   margin-bottom: 24px;
+}
+
+.bottom__text {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    margin-bottom: 24px;
+}
+
+.bottom__btn {
+    padding: 18px 50px;
+    border-radius: 30px;
+    border: 1px solid #ECD774;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom__btn:hover {
+    box-shadow: 0px 0px 5px 0px #D6A500;
+    background-color: #D6A500;
+    color: #0B0D0F;
+}
+
+/* RENT */
+
+.extra__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent {
+    padding-top: 88px;
+    padding-bottom: 308px;
+    background-color: #0A0A09;
+    background-image: url(../images/Ellipse\ 2.png), url(../images/yello-bmw.png);
+    background-repeat: no-repeat;
+    background-position: center, left bottom;
+}
+
+.rent__title {
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    margin-bottom: 130px;
+}
+
+.rent__title span {
+    color: #ECD774;
+}
+
+.rent__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.rent__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+
+.card__img {
+    margin-bottom: 34px;
+}
+
+.card__text {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+
+
+.rent__btn {
+    padding: 11px 15px;
+    border-radius: 10px;
+    border: 1px solid #F8B500;
+    background-color: #ECD774;
+    color: #0C0F12;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    transition: all 0.5s ease-in-out;
+}
+
+.rent__btn:hover {
+    background-color: transparent;
+    color: #F8B500;
+    box-shadow: 0px 0px 5px 0px #EFAC00;
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 44px;
+    padding-bottom: 34px;
+    background-color: #000;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo__img {
+    margin-bottom: 34px;
+}
+
+.left__text {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+    margin-bottom: 25px;
+}
+
+.left__text2 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.center__title {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+    margin-bottom: 24px;
+}
+
+.center__adress {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+    margin-bottom: 24px;
+}
+
+.center__text {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+}
+
+.center__phone__box {
+    display: flex;
+    align-items: flex-start;  
+    gap: 10px; 
+}
+
+.phone__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.center__phone {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__title {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+    margin-bottom: 40px;
+}
+
+.right__img__box {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    margin-bottom: 48px;
+}
+
+.right__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5%;
+    letter-spacing: -0.81px;
+}
