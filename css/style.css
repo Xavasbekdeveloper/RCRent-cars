@@ -8,10 +8,15 @@
 }
 
 .container {
-    width: 100%;
-    max-width: 88%;
+    width: 88%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1200px;
+    }
 }
 
 /* NAVBAR */
